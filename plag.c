@@ -55,7 +55,8 @@ void strlwr(char *string)
 }
 int max(int a, int b)
 {
-    return (a>b?a:b);
+    if(a>b) return a;
+    return b;
 }
 int min(int a, int b)
 {
@@ -361,6 +362,7 @@ void display_introduction()
     newline(2);
     tab(3);
     printf("Press any key to Continue...");
+    printf("\n");
     raw_input();
 }
 void display_conclusion()
