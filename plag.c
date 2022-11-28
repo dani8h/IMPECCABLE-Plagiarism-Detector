@@ -1,20 +1,14 @@
 //***********************************************************************************************************
 #include<stdio.h>
-#include<time.h>
 #include<unistd.h>
 #include<stdlib.h>
 #include<string.h>
 #include<math.h>
 #include<stdbool.h>
 #include<ctype.h>
-#include<limits.h>
-#include<sys/types.h>
 #include<errno.h>
-#include<sys/wait.h>
-#include<sys/stat.h>
-#include<fcntl.h>
 #include<dirent.h>
-#include<sys/ipc.h>
+
 
 #define or ||
 #define and &&
