@@ -1,11 +1,10 @@
 #include<stdio.h>
-#include<time.h>
 #include<stdlib.h>
 #include<string.h>
 #include<math.h>
 #include<stdbool.h>
 #include<ctype.h>
-#include<limits.h>
+
 
 
 void testcase_1(){
