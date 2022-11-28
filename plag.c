@@ -1,20 +1,14 @@
 //***********************************************************************************************************
 #include<stdio.h>
-#include<time.h>
 #include<unistd.h>
 #include<stdlib.h>
 #include<string.h>
-#include<math.h>
 #include<stdbool.h>
 #include<ctype.h>
-#include<limits.h>
-#include<sys/types.h>
+#include<math.h>
 #include<errno.h>
-#include<sys/wait.h>
-#include<sys/stat.h>
-#include<fcntl.h>
 #include<dirent.h>
-#include<sys/ipc.h>
+
 
 #define or ||
 #define and &&
@@ -48,6 +42,8 @@
 #define number_of_double_functions_matching_limit 1
 #define function_match_percentage_limit 85
 #define cumulative_match_percentage_limit 90
+
+
 void strlwr(char *string)
 {
     for(int i=0;i<strlen(string);i++)
