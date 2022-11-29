@@ -5,8 +5,6 @@
 #include<string.h>
 #include<stdbool.h>
 #include<ctype.h>
-#include<math.h>
-#include<errno.h>
 #include<dirent.h>
 
 
