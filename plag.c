@@ -3,10 +3,8 @@
 #include<unistd.h>
 #include<stdlib.h>
 #include<string.h>
-#include<math.h>
 #include<stdbool.h>
 #include<ctype.h>
-#include<errno.h>
 #include<dirent.h>
 
 
